@@ -1,0 +1,53 @@
+<header id="header">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/"><b>Blog Kode</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <form>
+                        <input type="text" class="form-control" placeholder="Search" data-bs-toggle="modal" data-bs-target="#SearchForm">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Modal -->
+<div class="modal fade" id="SearchForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search...." aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+              </div>              
+        </div>
+        <div class="modal-footer">
+            <p class="text-normal fs-6">Note : 
+                Jika Kalian ingin menggunakan Search silahkan masukkan kata kunci di kolom pencarian dan tekan tombol 🔎 <code>Search</code>
+                maka kalian akan di bawa ke halaman search result, Jika tidak ingin mencari sesuatu kalian bisa gunakan tombol <kbd>ESC</kbd>
+                pada keyboard.
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
